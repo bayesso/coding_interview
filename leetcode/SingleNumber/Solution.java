@@ -3,7 +3,7 @@
  * Given an array of integers, every element appears twice except for one. Find that single one. 
  * Note: Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
  * [Solution idea]: 
- * Use the property of XORin bit manipulation: x^x=0 and x^1=x
+ * Use the property of XORin bit manipulation: x^x=0 and x^0=x
  * /
 
 public class Solution {
