@@ -19,6 +19,11 @@ Note: when the i-th point is set as origin, to only scan the points from i+1 to 
  *     Point(int a, int b) { x = a; y = b; }
  * }
  */
+
+
+
+// Solution with computational complexity O(n^2 log n)
+
 public class Solution 
 {
     public int maxPoints(Point[] points) 
