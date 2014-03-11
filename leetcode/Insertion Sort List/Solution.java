@@ -35,7 +35,7 @@ public class Solution
     		}
     		else
     		{
-    			ListNode p = h;
+    			ListNode p = h; // p is a cursor on new list, used to find the correct position to insert a new node
     			while (p.next != null && p.next.val <= head.val)
     			{
     				p = p.next;
